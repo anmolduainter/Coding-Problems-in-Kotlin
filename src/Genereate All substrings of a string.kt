@@ -41,7 +41,7 @@ fun main1(c:CharArray,start:Int,end:Int){
 
 fun main(args:Array<String>){
 
-    var s:String="Hello";
+    var s:String="abcdeeff";
 
     var c:CharArray =s.toCharArray();
 
