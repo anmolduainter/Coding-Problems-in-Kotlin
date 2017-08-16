@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca95245-517f-4342-bbb3-6ae4990ad5f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/MergeSortKt.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MergeSort.kt" afterPath="$PROJECT_DIR$/src/Sortings/MergeSort.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/Generate_All_subsequences_of_a_stringKt.class" afterPath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/Generate_All_subsequences_of_a_stringKt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/META-INF/DataStructures in Kotlin.kotlin_module" afterPath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/META-INF/DataStructures in Kotlin.kotlin_module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/Sortings/SelectionSortKt.class" afterPath="$PROJECT_DIR$/out/production/DataStructures in Kotlin/Sortings/SelectionSortKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructures in Kotlin.iml" afterPath="$PROJECT_DIR$/DataStructures in Kotlin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Generate All subsequences of a string.kt" afterPath="$PROJECT_DIR$/src/Generate All subsequences of a string.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sortings/SelectionSort.kt" afterPath="$PROJECT_DIR$/src/Sortings/SelectionSort.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectionSort.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SelectionSort.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sortings/SelectionSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSort.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sortings/InsertionSort.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -59,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/Sortings/MergeSort.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1590">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#merge#0" expanded="false" />
               </folding>
@@ -94,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/Generate All subsequences of a string.kt" />
         <option value="$PROJECT_DIR$/src/Print all Paths in a grid.kt" />
         <option value="$PROJECT_DIR$/src/Sortings/SelectionSort.kt" />
+        <option value="$PROJECT_DIR$/src/Sortings/InsertionSort.kt" />
       </list>
     </option>
   </component>
@@ -194,23 +201,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Sortings.SelectionSortKt">
-    <configuration default="false" name="Counting_sets_of_bitsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Sortings.InsertionSortKt">
+    <configuration default="false" name="Sortings.SelectionSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Counting_sets_of_bitsKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures in Kotlin" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Sortings.MergeSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Sortings.MergeSortKt" />
+      <option name="MAIN_CLASS_NAME" value="Sortings.SelectionSortKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -247,9 +241,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Sortings.SelectionSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Sortings.InsertionSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Sortings.SelectionSortKt" />
+      <option name="MAIN_CLASS_NAME" value="Sortings.InsertionSortKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -464,20 +458,59 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.Counting_sets_of_bitsKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.Sortings.MergeSortKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.Genereate_All_substrings_of_a_stringKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.Generate_All_subsequences_of_a_stringKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.Sortings.SelectionSortKt" />
+    <configuration default="false" name="Sortings.MergeSortKt" type="JetRunConfigurationType" factoryName="Kotlin" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Sortings.MergeSortKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructures in Kotlin" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Sortings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DataStructures in Kotlin" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Sortings" />
+      <option name="MAIN_CLASS_NAME" value="Sortings" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.Sortings.MergeSortKt" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit." />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.Sortings.SelectionSortKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.Genereate_All_substrings_of_a_stringKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.Generate_All_subsequences_of_a_stringKt" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.Sortings.InsertionSortKt" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.Sortings.SelectionSortKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.Generate_All_subsequences_of_a_stringKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.Genereate_All_substrings_of_a_stringKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.Sortings.MergeSortKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.Counting_sets_of_bitsKt" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.Sortings.InsertionSortKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.Sortings.SelectionSortKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.Generate_All_subsequences_of_a_stringKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.Genereate_All_substrings_of_a_stringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -493,6 +526,20 @@
       <updated>1502050771047</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InsertionSortKt - 2017.08.16 at 23h 50m 28s.xml">
+      <configuration name="InsertionSortKt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortKt - 2017.08.16 at 23h 50m 37s.xml">
+      <configuration name="InsertionSortKt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortKt - 2017.08.16 at 23h 50m 45s.xml">
+      <configuration name="InsertionSortKt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortKt - 2017.08.16 at 23h 52m 39s.xml">
+      <configuration name="InsertionSortKt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-4" width="1311" height="773" extended-state="6" />
@@ -660,7 +707,7 @@
     <entry file="file://$PROJECT_DIR$/src/Sortings/MergeSort.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1590">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#merge#0" expanded="false" />
           </folding>
@@ -669,8 +716,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sortings/SelectionSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sortings/InsertionSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding />
         </state>
       </provider>
