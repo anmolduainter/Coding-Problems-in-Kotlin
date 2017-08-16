@@ -9,7 +9,7 @@ fun printSubsequence(c:CharArray,n:Int){
     var p:Int=Math.pow(a.toDouble(),n.toDouble()).toInt();
 
     for (i in 1..p){
-        for (j in 0..n){
+        for (j in 0..n-1){
             if ((i and (1 shl j))>0){
                 print(c[j])
             }
@@ -19,8 +19,6 @@ fun printSubsequence(c:CharArray,n:Int){
 
 
 }
-
-
 
 
 

@@ -1,3 +1,5 @@
+package Sortings
+
 /**
  * Created by anmol on 7/8/17.
  */
@@ -114,6 +116,6 @@ fun main(args:Array<String>){
 
     mergeSort(number,0,length);
 
-  //  printArr(number,length)
+  //  Sortings.printArr(number,length)
 
 }
